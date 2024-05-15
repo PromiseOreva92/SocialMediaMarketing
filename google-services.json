@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "668049154886",
+    "project_id": "liftpush-50022",
+    "storage_bucket": "liftpush-50022.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668049154886:android:6ce82ba0316a5573c8bb47",
+        "android_client_info": {
+          "package_name": "com.app.liftnaija"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeREii2SHPb8zz5Yp_fpEPqWoRLqoux1Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

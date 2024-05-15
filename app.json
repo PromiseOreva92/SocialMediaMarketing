@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "liftnaija",
+    "slug": "liftnaija-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.app.liftnaija",
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "Allow LiftNaija to use Face ID."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.app.liftnaija",
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "android.permission.USE_BIOMETRIC",
+        "android.permission.USE_FINGERPRINT"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e013d063-8e7d-444e-a8ff-378c7dbe9ed8"
+      },
+      "router": {
+        "origin": false
+      }
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      "expo-router",
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "Allow LiftNaija to use Face ID."
+        }
+      ]
+    ]
+  }
+}
